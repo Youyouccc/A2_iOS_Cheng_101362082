@@ -8,7 +8,7 @@
 import UIKit
 import coreData
 
-class ViewController: UIViewController{
+class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSource, UITableViewDelegate{
 
     var products: [Product] = []
     var filteredProducts: [Product] = []
