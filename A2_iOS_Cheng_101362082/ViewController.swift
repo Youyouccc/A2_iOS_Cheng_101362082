@@ -61,6 +61,9 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
         setupSearchBar()
         fetchProducts()
         
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+                    return isSearching ? filteredProducts.count : products.count
+                }
     }
         
 }
