@@ -11,7 +11,6 @@
 		A47F6A1A2D93B81500250EE3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47F6A192D93B81500250EE3 /* SceneDelegate.swift */; };
 		A47F6A1C2D93B81500250EE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47F6A1B2D93B81500250EE3 /* ViewController.swift */; };
 		A47F6A1F2D93B81500250EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47F6A1D2D93B81500250EE3 /* Main.storyboard */; };
-		A47F6A222D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A47F6A202D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodeld */; };
 		A47F6A242D93B81800250EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47F6A232D93B81800250EE3 /* Assets.xcassets */; };
 		A47F6A272D93B81800250EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47F6A252D93B81800250EE3 /* LaunchScreen.storyboard */; };
 		A47F6A302D93C00600250EE3 /* ProductModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A47F6A2E2D93C00600250EE3 /* ProductModel.xcdatamodeld */; };
@@ -25,7 +24,6 @@
 		A47F6A192D93B81500250EE3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A47F6A1B2D93B81500250EE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A47F6A1E2D93B81500250EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A47F6A212D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = A2_iOS_Cheng_101362082.xcdatamodel; sourceTree = "<group>"; };
 		A47F6A232D93B81800250EE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47F6A262D93B81800250EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47F6A282D93B81800250EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -73,7 +71,6 @@
 				A47F6A232D93B81800250EE3 /* Assets.xcassets */,
 				A47F6A252D93B81800250EE3 /* LaunchScreen.storyboard */,
 				A47F6A282D93B81800250EE3 /* Info.plist */,
-				A47F6A202D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodeld */,
 				A47F6A2E2D93C00600250EE3 /* ProductModel.xcdatamodeld */,
 			);
 			path = A2_iOS_Cheng_101362082;
@@ -151,7 +148,6 @@
 			files = (
 				A47F6A1C2D93B81500250EE3 /* ViewController.swift in Sources */,
 				A47F6A182D93B81500250EE3 /* AppDelegate.swift in Sources */,
-				A47F6A222D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodeld in Sources */,
 				A47F6A342D93C89800250EE3 /* Product+CoreDataProperties.swift in Sources */,
 				A47F6A302D93C00600250EE3 /* ProductModel.xcdatamodeld in Sources */,
 				A47F6A1A2D93B81500250EE3 /* SceneDelegate.swift in Sources */,
@@ -357,16 +353,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A47F6A202D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A47F6A212D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodel */,
-			);
-			currentVersion = A47F6A212D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodel */;
-			path = A2_iOS_Cheng_101362082.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		A47F6A2E2D93C00600250EE3 /* ProductModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
