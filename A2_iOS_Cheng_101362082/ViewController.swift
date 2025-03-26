@@ -75,6 +75,15 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
                     return cell
                 }
         
+        @IBAction func saveProduct(_ sender: Any) {
+            let context = PersistenceController.shared.container.viewContext
+            let newProduct = Product(context: context)
+            
+            newProduct.productName = productNameTextField.text
+            newProduct.productDescription = productDescriptionTextField.text
+            newProduct.productPrice = Decimal(string: productPriceTextField.text ?? "0") ?? 0
+            newProduct.productProvider = productProviderTextField.text
+        }
     }
         
 }
