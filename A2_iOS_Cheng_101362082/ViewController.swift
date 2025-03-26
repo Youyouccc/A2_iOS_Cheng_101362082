@@ -46,6 +46,18 @@ class ViewController: UIViewController{
                 tableView.reloadData()
         }
         
+        func fetchProducts() {
+                let fetchRequest: NSFetchRequest<Product> = Product.fetchRequest()
+                    
+                do {
+                    let fetchedProducts = try PersistenceController.shared.container.viewContext.fetch(fetchRequest)
+                    self.products = fetchedProducts
+                    self.filteredProducts = fetchedProducts // Default to all product
+                        tableView.reloadData()
+                } catch {
+                    print("Error fetching products: \(error)")
+                }
+            }
     }
         
 }
