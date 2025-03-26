@@ -15,6 +15,8 @@
 		A47F6A242D93B81800250EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47F6A232D93B81800250EE3 /* Assets.xcassets */; };
 		A47F6A272D93B81800250EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47F6A252D93B81800250EE3 /* LaunchScreen.storyboard */; };
 		A47F6A302D93C00600250EE3 /* ProductModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A47F6A2E2D93C00600250EE3 /* ProductModel.xcdatamodeld */; };
+		A47F6A332D93C89800250EE3 /* Product+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47F6A312D93C89800250EE3 /* Product+CoreDataClass.swift */; };
+		A47F6A342D93C89800250EE3 /* Product+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47F6A322D93C89800250EE3 /* Product+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		A47F6A262D93B81800250EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47F6A282D93B81800250EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A47F6A2F2D93C00600250EE3 /* ProductModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductModel.xcdatamodel; sourceTree = "<group>"; };
+		A47F6A312D93C89800250EE3 /* Product+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A47F6A322D93C89800250EE3 /* Product+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Product+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 		A47F6A0B2D93B81500250EE3 = {
 			isa = PBXGroup;
 			children = (
+				A47F6A312D93C89800250EE3 /* Product+CoreDataClass.swift */,
+				A47F6A322D93C89800250EE3 /* Product+CoreDataProperties.swift */,
 				A47F6A162D93B81500250EE3 /* A2_iOS_Cheng_101362082 */,
 				A47F6A152D93B81500250EE3 /* Products */,
 			);
@@ -146,8 +152,10 @@
 				A47F6A1C2D93B81500250EE3 /* ViewController.swift in Sources */,
 				A47F6A182D93B81500250EE3 /* AppDelegate.swift in Sources */,
 				A47F6A222D93B81500250EE3 /* A2_iOS_Cheng_101362082.xcdatamodeld in Sources */,
+				A47F6A342D93C89800250EE3 /* Product+CoreDataProperties.swift in Sources */,
 				A47F6A302D93C00600250EE3 /* ProductModel.xcdatamodeld in Sources */,
 				A47F6A1A2D93B81500250EE3 /* SceneDelegate.swift in Sources */,
+				A47F6A332D93C89800250EE3 /* Product+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
