@@ -63,7 +63,18 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
         
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
                     return isSearching ? filteredProducts.count : products.count
+        }
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+                    let cell = tableView.dequeueReusableCell(withIdentifier: "ProductCell", for: indexPath)
+                    let product = isSearching ? filteredProducts[indexPath.row] : products[indexPath.row]
+                    
+                    cell.textLabel?.text = product.productName
+                    cell.detailTextLabel?.text = product.productDescription
+                    
+                    return cell
                 }
+        
     }
         
 }
