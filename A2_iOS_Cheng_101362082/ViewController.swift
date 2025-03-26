@@ -19,5 +19,11 @@ class ViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        func setupSearchBar(){
+                    let searchBar = UISearchBar()
+                    searchBar.placeholder = "Search by Name or Description"
+                    searchBar.delegate = self
+                    self.navigationItem.titleView = searchBar
+                }
         
     }
