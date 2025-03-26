@@ -83,6 +83,14 @@ class ViewController: UIViewController, UISearchBarDelegate, UITableViewDataSour
             newProduct.productDescription = productDescriptionTextField.text
             newProduct.productPrice = Decimal(string: productPriceTextField.text ?? "0") ?? 0
             newProduct.productProvider = productProviderTextField.text
+            
+            do {
+                    try context.save()
+                    navigationController?.popViewController(animated: true)
+                } catch {
+                    print("Failed to save new product: \(error)")
+                }
+            
         }
     }
         
