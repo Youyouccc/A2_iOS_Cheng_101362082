@@ -58,6 +58,9 @@ class ViewController: UIViewController{
                     print("Error fetching products: \(error)")
                 }
             }
+        setupSearchBar()
+        fetchProducts()
+        
     }
         
 }
